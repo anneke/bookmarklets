@@ -1,0 +1,34 @@
+<html>
+<head>
+<title>Bookmarklets</title>
+<link rel="stylesheet" href="../onderhoud.css" />
+<style>
+body {
+  padding: 10px;
+}
+
+@media (min-width: 85.375em) {
+  body {
+    padding: 100px;
+  }
+}
+</style>
+
+</head>
+<body>
+
+<h1>Bookmarklets</h1>
+<h2><em>A few browser scripts to make life easier</em></h2>
+<hr />
+
+<h3>How it works</h3>
+<p>Drag the links to your browserbar and click them on the page on which you mean to use them. Done!</p>
+
+<h3>Nerds & Company intranet blurrer</h3>
+<a class="bookmarklet" href="javascript:(function()%7Bjavascript%3A(function()%7Bjavascript%3A%20(function%20()%20%7Bvar%20linkNode%20%3D%20document.createElement('link')%3BlinkNode.rel%20%3D%20'stylesheet'%3BlinkNode.href%20%3D%20'https%3A%2F%2Fannekesinnema.nl%2Fbookmarklets%2Fintranetscreenshots.css'%3Bdocument.getElementsByTagName('head')%5B0%5D.appendChild(linkNode)%3B%7D)()%7D)()%7D)()">N&amp;C Intranet Blurrer</a>
+
+<h3>Make W3C pages nicer to read</h3>
+<a class="bookmarklet" href="javascript:(function()%7Bjavascript%3A(function()%7Bvar%20linkNode%20%3D%20document.createElement('link')%3BlinkNode.rel %3D 'stylesheet'%3BlinkNode.href %3D 'https%3A%2F%2Fannekesinnema.nl%2Fbookmarklets%2Fw3alize.css'%3Bvar linkNodeT %3D document.createElement('link')%3BlinkNodeT.rel %3D 'stylesheet'%3BlinkNodeT.href %3D 'https%3A%2F%2Fmaxcdn.bootstrapcdn.com%2Ffont-awesome%2F4.5.0%2Fcss%2Ffont-awesome.min.css'%3Bdocument.getElementsByTagName('head')%5B0%5D.appendChild(linkNodeT)%3Bdocument.getElementsByTagName('head')%5B0%5D.appendChild(linkNode)%3B%7D)()%7D)()">W3Calize</a>
+ 
+</body>
+</html>

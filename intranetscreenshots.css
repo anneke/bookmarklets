@@ -1,0 +1,22 @@
+/**
+Intranet-screenshotter
+door Anneke Sinnema
+**/
+
+#main p,
+span,
+h2,
+h3,
+h4,
+.text-content,
+.smoelenboek-text .label  {
+  -webkit-filter: blur(4px);
+}
+
+.logo img {
+  -webkit-filter: blur(10px);
+}
+
+#sidebar span {
+  -webkit-filter: blur(0);
+}

@@ -1,0 +1,268 @@
+/** W3alize: to prettify the W3.org specs for increased readability **/
+
+html {
+    font-size: 112.5%;
+    line-height: 1.4;
+    font-family: "ProximaNovaAlt", Arial, "Helvetica Neue", Helvetica, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    color: #313131;
+    text-rendering: optimizeLegibility;
+    -webkit-font-variant-ligatures: common-ligatures discretionary-ligatures historical-ligatures;
+    font-variant-ligatures: common-ligatures discretionary-ligatures historical-ligatures
+}
+
+body {
+	width: 100%;
+	max-width: 800px;
+	margin: 0px auto;
+}
+
+@media all and (min-width:640px) {
+    html {
+        font-size: 118.75%
+    }
+}
+
+@media all and (min-width:1100px) {
+    html {
+        font-size: 137.5%
+    }
+}
+
+@media all and (min-width:1800px) {
+    html {
+        font-size: 156.25%
+    }
+}
+
+
+@font-face {
+  font-family: 'ProximaNovaAlt';
+  src: url("assets/fonts/ProximaNovaAltLight.eot");
+  src: url("assets/fonts/ProximaNovaAltLight.eot?#iefix") format("embedded-opentype"), url("assets/fonts/ProximaNovaAltLight.woff") format("woff");
+  font-weight: 300;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'ProximaNovaAlt';
+  src: url("assets/fonts/ProximaNovaAltLightItalic.eot");
+  src: url("assets/fonts/ProximaNovaAltLightItalic.eot?#iefix") format("embedded-opentype"), url("assets/fonts/ProximaNovaAltLightItalic.woff") format("woff");
+  font-weight: 300;
+  font-style: italic; }
+
+@font-face {
+  font-family: 'ProximaNovaAlt';
+  src: url("assets/fonts/ProximaNovaAltRegular.eot");
+  src: url("assets/fonts/ProximaNovaAltRegular.eot?#iefix") format("embedded-opentype"), url("assets/fonts/ProximaNovaAltRegular.woff") format("woff");
+  font-weight: 400;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'ProximaNovaAlt';
+  src: url("assets/fonts/ProximaNovaAltRegularItalic.eot");
+  src: url("assets/fonts/ProximaNovaAltRegularItalic.eot?#iefix") format("embedded-opentype"), url("assets/fonts/ProximaNovaAltRegularItalic.woff") format("woff");
+  font-weight: 400;
+  font-style: italic; }
+
+@font-face {
+  font-family: 'ProximaNovaAlt';
+  src: url("assets/fonts/ProximaNovaAltSemiBold.eot");
+  src: url("assets/fonts/ProximaNovaAltSemiBold.eot?#iefix") format("embedded-opentype"), url("assets/fonts/ProximaNovaAltSemiBold.woff") format("woff");
+  font-weight: 600;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'ProximaNovaAlt';
+  src: url("assets/fonts/ProximaNovaAltSemiBoldItalic.eot");
+  src: url("assets/fonts/ProximaNovaAltSemiBoldItalic.eot?#iefix") format("embedded-opentype"), url("assets/fonts/ProximaNovaAltSemiBoldItalic.woff") format("woff");
+  font-weight: 600;
+  font-style: italic; }
+
+@font-face {
+  font-family: 'ProximaNovaAlt';
+  src: url("assets/fonts/ProximaNovaAltBold.eot");
+  src: url("assets/fonts/ProximaNovaAltBold.eot?#iefix") format("embedded-opentype"), url("assets/fonts/ProximaNovaAltBold.woff") format("woff");
+  font-weight: 700;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Bree';
+  src: url("assets/fonts/breeserif-regular.eot");
+  src: url("assets/fonts/breeserif-regular.eot?#iefix") format("embedded-opentype"), url("assets/fonts/breeserif-regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+  
+h1,h2,h3,h4,h5 {
+	color: #40A3AD;
+}
+
+h1 a,h2 a,h3 a,h4 a,h5 a {
+    color: #39A85B;
+    text-decoration: underline
+}
+
+h1 a:active,h1 a:focus,h1 a:hover,h2 a:active,h2 a:focus,h2 a:hover,h3 a:active,h3 a:focus,h3 a:hover,h4 a:active,h4 a:focus,h4 a:hover,h5 a:active,h5 a:focus,h5 a:hover {
+    color: #0cc471
+}
+
+.h1,h1 {
+    font-size: 2.0736rem;
+    line-height: 1.4;
+    margin-top: 2.1rem
+}
+
+.h1,.h2,h1,h2 {
+    font-weight: 500
+}
+
+.h2,h2 {
+    font-size: 1.44rem;
+    line-height: 1.35;
+    margin-top: 4.2rem
+}
+
+h1+.h2,h1+h2 {
+    margin-top: 1.4rem
+}
+
+h3,h4 {
+    font-size: 1rem;
+    line-height: 1.5
+}
+
+h3,h4,h6 {
+    font-weight: 500
+}
+
+h6 {
+    font-size: .69444rem;
+    line-height: 1.4rem;
+    margin-top: .7rem;
+    font-style: italic;
+    color: #aaa
+}
+
+h6 a {
+    color: #ff4f4f
+}
+
+code, pre {
+    font-family: Menlo,Consolas,Monaco,monospace;
+    font-size: .69444rem;
+    line-height: 1.12rem;
+    color: #333;
+}
+
+ol code,p code,ul code {
+    display: inline-block;
+    padding: .1em .5em;
+    color: #315082;
+    background: #fafafa;
+    border: 1px solid #aaa;
+    border-radius: .28rem
+}
+
+strong {
+    font-weight: 700
+}
+
+em {
+    color: #315082
+}
+
+div.example, div.note,  div.html-example {
+	padding: .7rem;
+    border-radius: 7px;
+    border: 2px solid #40A3AD;
+    border-top: 10px solid #40A3AD;
+    color: #40A3AD;
+}
+
+ div.note {
+    border: 2px solid #DB4242;
+    border-top: 10px solid #DB4242;
+    color: #DB4242;
+}
+
+ div.html-example {
+    border: 2px solid #E5C025;
+    border-top: 10px solid #E5C025;
+    color: #315082;
+}
+
+div.html-example:before {
+	content: "\f121";
+	position: relative;
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: inherit;
+/*--adjust as necessary--*/
+    color: #000;
+    font-size: 18px;
+    padding-right: 0.5em;
+    position: absolute;
+    top: 10px;
+    left: 0;
+}
+
+p[style="display:none"] + *,
+.example p:first-child,
+.note p:first-child,
+.html-example p:first-child,
+dd > *:first-child,
+dt > *:first-child {
+	margin-top: 0;
+}
+.example p:last-child,
+.note p:last-child,
+.html-example p:last-child {
+	margin-bottom: 0;
+}
+
+:link {
+	color: #315082
+}
+
+.normref, .informref {
+    background-color: #eee;
+    color: #333;
+    padding: 3px 5px;
+    font-style: italic;
+    box-decoration-break: clone;
+}
+
+.normref:before {
+	content: "normative reference ";
+}
+.informref:before {
+	content: "informational reference ";
+}
+
+a.noxref:link, a.noxref:visited {
+	text-decoration: none;
+}
+
+a[href^="#"]:before,
+.tocxref:before {
+	content: "\f08e";
+    position: relative;
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: inherit;
+    color: #000;
+    font-size: 18px;
+    padding-right: 0.5em;
+    position: absolute;
+    top: 10px;
+    left: 0;
+}
+
+dt > strong > .index-def {
+	display: block;
+    border-bottom: #DB4242 2px solid;
+    margin-bottom: 10px;
+    margin-top: 30px;
+}
